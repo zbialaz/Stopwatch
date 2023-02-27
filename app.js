@@ -7,7 +7,8 @@ let seconds = 0,
   hours = 0;
 let interval;
 
-const renderTime = (seconds, minutes, hours) => {
+const renderTime = (seconds, minutes, hours) => 
+{
   const hoursValue = hours < 10 ? "0" + hours : hours;
   const minutesValue = minutes < 10 ? "0" + minutes : minutes;
   const secondsValue = seconds < 10 ? "0" + seconds : seconds;
